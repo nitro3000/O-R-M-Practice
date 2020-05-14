@@ -5,7 +5,7 @@ import java.sql.Date;
 import java.util.Collection;
 
 @Entity
-        //(name = "merchant")
+//(name = "merchant")
 public class Merchant {
 
     @Id

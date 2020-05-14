@@ -9,15 +9,15 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 @Repository // available to hibernate and show that this is bean in spring witch work with DB
-public class MerchantRepository implements IMerchantRepository{
+public class MerchantRepository implements IMerchantRepository {
 
-    private final Logger logger = LoggerFactory.getLogger(MerchantRepository.class);
+    private final Logger logger = LoggerFactory.getLogger (MerchantRepository.class);
 
     @PersistenceContext  // same as @Autowired
     private EntityManager em;
 
     public Merchant findById(int id) {
-        Merchant m = em.find(Merchant.class, id); // mapping for em (JPA method .find)
+        Merchant m = em.find (Merchant.class, id); // mapping for em (JPA method .find)
         return m;
     }
 }

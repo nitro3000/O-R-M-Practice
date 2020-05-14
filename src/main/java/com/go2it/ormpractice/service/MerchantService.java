@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service // without @Service Spring will not inject bean. (Spring inject only classes that managed by Spring)
-public class MerchantService implements IMerchantService{
+public class MerchantService implements IMerchantService {
     @Autowired // add bean merchantRepository to @Service
     private MerchantRepository merchantRepository;
 

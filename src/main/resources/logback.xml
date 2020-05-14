@@ -50,7 +50,7 @@
             <maxHistory>14</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{HH:mm:ss.SSS} CUSTOM_PATTERN [%thread] %-5level %logger{35} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} CUSTOM_PATTERN [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -63,6 +63,6 @@
     </root>
     <logger name="INFOLogger" level="INFO">
         <appender-ref ref="STDOUT"/>
-<!--        <appender-ref ref="INFO_APPENDER"/> THIS ONE MAKES APPEAR info LOG AT CONSOLE>-->
+        <!--        <appender-ref ref="INFO_APPENDER"/> THIS ONE MAKES APPEAR info LOG AT CONSOLE>-->
     </logger>
 </configuration>

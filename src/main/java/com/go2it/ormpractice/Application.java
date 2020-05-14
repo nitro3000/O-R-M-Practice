@@ -8,14 +8,14 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
-//    private static final Logger LOGGER = LoggerFactory.getLogger (Application.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger (Application.class);
 
     public static void main(String[] args) {
-//        LOGGER.error ("Hello from error.");
+
         ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
         MerchantService merchantService = context.getBean (MerchantService.class);
-        Merchant m1 = merchantService.findById (1);
+        Merchant m1 = merchantService.findById (2);
         System.out.println ("name = " + m1.getName ( ));
-
+        LOGGER.info ("name = " + m1.getName ( ));
     }
 }
