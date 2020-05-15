@@ -18,7 +18,7 @@ public class CustomerRepository implements ICustomerRepository {
 
     @Override
     public Customer findById(int id) {
-        Customer c = em.find(Customer.class,id);
+        Customer c = em.find (Customer.class, id);
         return c;
     }
 
@@ -29,8 +29,8 @@ public class CustomerRepository implements ICustomerRepository {
 
     @Override
     public boolean remove(int id) {
-        Customer customer =findById (id);
-        if(customer!=null) {
+        Customer customer = findById (id);
+        if (customer != null) {
             em.remove (customer);
             return true;
         }
@@ -39,12 +39,35 @@ public class CustomerRepository implements ICustomerRepository {
 
     @Override
     public boolean remove(Customer customer) {
-        if(customer!=null) {
+        if (customer != null) {
             em.remove (customer);
             return true;
         }
         return false;
     }
 
+    @Override
+    public boolean update(Customer customerToUpdate) {
+        if (customerToUpdate != null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+//    @Override
+//    public boolean update(Customer customerToUpdate) {
+//        if (customerToUpdate != null) {
+//            em.persist (customerToUpdate);
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
+
+    public void merge(Customer customerToMerge) { //should be void or Customer type return?
+        if (customerToMerge != null) {
+            em.merge (customerToMerge);
+        } else System.out.println ("customer not exist");
+    }
 
 }

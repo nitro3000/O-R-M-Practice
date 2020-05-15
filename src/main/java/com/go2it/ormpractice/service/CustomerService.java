@@ -18,7 +18,6 @@ public class CustomerService implements ICustomerService {
     @Transactional
     public void save(Customer customer) {
         customerRepository.save (customer);
-
     }
 
     @Transactional
@@ -29,5 +28,16 @@ public class CustomerService implements ICustomerService {
     @Transactional
     public boolean remove(Customer customer) {
         return customerRepository.remove (customer);
+    }
+
+    @Transactional
+    public boolean updateCcNo(int id, String ccNo) {
+        Customer customerToUpdate = customerRepository.findById (id);
+        if (customerToUpdate != null) {
+            customerToUpdate.setCcNo (ccNo);
+            return customerRepository.update (customerToUpdate);
+                    //customerRepository.save (customerToUpdate);
+        }
+        return false;
     }
 }
