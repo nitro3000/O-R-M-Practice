@@ -2,7 +2,6 @@ package com.go2it.ormpractice.entity;
 
 import javax.persistence.*;
 import java.sql.Date;
-import java.util.Collection;
 
 @Entity
 //(name = "merchant")
@@ -16,14 +15,19 @@ public class Merchant {
     private String swift;
     private String account;
     private Double charge;
-    private Short period;
+    private Short period1;
     private Double minSum;
     private Double needToSend;
     private Double sent;
     private java.sql.Date lastSent;
 
-//    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER)
-//    	private Collection<Payment> payments;
+//    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
+//    private Collection<Payment> payments;
+
+//    @ManyToMany(fetch = FetchType.EAGER)
+//    @JoinTable(name="payment", joinColumns=@JoinColumn(name="merchantId"), inverseJoinColumns=@JoinColumn(name="customerId"))
+//    private Collection<Customer> customers;//cascade=CascadeType.ALL
+
 
     public int getId() {
         return id;
@@ -73,12 +77,12 @@ public class Merchant {
         this.charge = charge;
     }
 
-    public Short getPeriod() {
-        return period;
+    public Short getPeriod1() {
+        return period1;
     }
 
-    public void setPeriod(Short period) {
-        this.period = period;
+    public void setPeriod1(Short period) {
+        this.period1 = period;
     }
 
     public Double getMinSum() {
@@ -107,6 +111,32 @@ public class Merchant {
 
     public Date getLastSent() {
         return lastSent;
+    }
+
+//
+//    public Collection<Payment> getPayments() {
+//        return payments;
+//    }
+//
+//    public void setPayments(Collection<Payment> payments) {
+//        this.payments = payments;
+//    }
+
+    @Override
+    public String toString() {
+        return "Merchant{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", bankName='" + bankName + '\'' +
+                ", swift='" + swift + '\'' +
+                ", account='" + account + '\'' +
+                ", charge=" + charge +
+                ", period=" + period1 +
+                ", minSum=" + minSum +
+                ", needToSend=" + needToSend +
+                ", sent=" + sent +
+                ", lastSent=" + lastSent +
+                '}';
     }
 
     public void setLastSent(Date lastSent) {

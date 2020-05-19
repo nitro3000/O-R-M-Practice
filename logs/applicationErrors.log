@@ -1,0 +1,17 @@
+00:18:08.080 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Out of range value for column 'charge' at row 1
+00:31:07.213 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Data truncation: Out of range value for column 'charge' at row 1
+00:31:37.558 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+00:42:09.937 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+00:55:18.123 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+00:59:05.394 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+00:59:43.389 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+01:00:09.146 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+01:00:41.448 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+01:05:42.627 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+12:55:52.622 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:04:32.292 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:17:02.453 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:17:51.448 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:18:52.650 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:19:07.206 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Field 'period1' doesn't have a default value
+13:28:03.043 CUSTOM_PATTERN [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'period1' cannot be null

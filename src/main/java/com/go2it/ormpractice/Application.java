@@ -1,17 +1,15 @@
 package com.go2it.ormpractice;
 
-import com.go2it.ormpractice.entity.Customer;
 import com.go2it.ormpractice.entity.Merchant;
-import com.go2it.ormpractice.service.CustomerService;
-import com.go2it.ormpractice.service.ICustomerService;
-import com.go2it.ormpractice.service.MerchantService;
+import com.go2it.ormpractice.service.IMerchantService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.sql.Date;
 import java.time.LocalDate;
-import java.time.Month;
+
 
 public class Application {
     private static final Logger LOGGER = LoggerFactory.getLogger (Application.class);
@@ -20,35 +18,59 @@ public class Application {
 
 //================= find merchant by id =================
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
-//        MerchantService merchantService = context.getBean (MerchantService.class);
+//        MerchantService merchantService = context.getBean (MerchantService.class); // can be changed to IMerchantService
 //        Merchant m1 = merchantService.findById (2);
 //        System.out.println ("name = " + m1.getName ( ));
 //        LOGGER.info ("name = " + m1.getName ( ));
 
 // ================= find customer by id ================
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
-//        ICustomerService customerService = context.getBean(ICustomerService.class); // change to CustomerService
+//        ICustomerService customerService = context.getBean(ICustomerService.class); // can be changed to CustomerService
 
 //        Customer customer = customerService.findById (1);
 //        System.out.println (customer.toString () );
 
 //===================add or save to DB new customer =========
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
-//        ICustomerService customerService = context.getBean(ICustomerService.class); // change to CustomerService
-
+//        ICustomerService customerService = context.getBean(ICustomerService.class); // can be changed to CustomerService
+//
 //        Customer customer = new Customer ();
-//        customer.setAddress ("Independence st.26,Malaga Spain");
-//        customer.setCcNo ("11122233344499");
+//        customer.setAddress ("DeOeuf st.26,DeBle France");
+//        customer.setCcNo ("1110003340009");
 //        customer.setCcType ("Master Card");
-//        customer.setEmail ("dima@t.com");
+//        customer.setEmail ("ara@t.com");
 //        customer.setName ("Dima Tut");
-//        LocalDate dt1 = LocalDate.of(2002, Month.MAY,01);
+//        LocalDate dt1 = LocalDate.of(2012, Month.MAY,06);
 //        customer.setMaturity (java.sql.Date.valueOf (dt1));
-//        LocalDate dt2 = LocalDate.of(2019, Month.FEBRUARY,18);
+//        LocalDate dt2 = LocalDate.of(2029, Month.FEBRUARY,10);
 //        customer.setExpDate (java.sql.Date.valueOf (dt2));
 //
 //        customerService.save (customer); // saving new customer
 //        System.out.println ("id= "+customer.getId () ); // will show the auto-incremented ID of new customer in DB if created
+
+//=====================add or save to DB new merchant =========
+        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+        IMerchantService merchantService = context.getBean(IMerchantService.class);
+
+        Merchant merchant = new Merchant ();
+        merchant.setName ("Walmart");
+        merchant.setCharge(10.00);
+        merchant.setBankName ("Visa");
+        merchant.setAccount ("55588888555");
+        merchant.setMinSum (2.00);
+        merchant.setSwift ("BZXC9234W");
+        merchant.setPeriod1((short) 4);
+        merchant.setMinSum (28.0);
+        merchant.setNeedToSend (22.0);
+        merchant.setSent (29.0);
+        Date dt = Date.valueOf (LocalDate.now ());
+        merchant.setLastSent (dt);
+
+        merchantService.save (merchant); // saving new merchant
+        System.out.println ("id= "+merchant.getId () ); // will show the auto-incremented ID of new customer in DB if created
+
+//===todo================add or save to DB new payment =========
+
 
 //========== remove customer by id ======================
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
@@ -56,10 +78,10 @@ public class Application {
 //        System.out.println ("The customer with id = 15 was removed successfully -"+customerService.remove (15) );
 
 //////========== remove customer by customer object===========?????????????? how to do it????
-        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
-        ICustomerService customerService = context.getBean(ICustomerService.class);
-        Customer customer =customerService.findById (14);
-        System.out.println ("The customer "+ customer.getName ()+", was removed successfully -"+customerService.remove (customer));
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        ICustomerService customerService = context.getBean(ICustomerService.class);
+//        Customer customer =customerService.findById (14);
+//        System.out.println ("The customer "+ customer.getName ()+", was removed successfully -"+customerService.remove (customer));
 
 //========== Update of specific field in the object
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
@@ -77,6 +99,68 @@ public class Application {
 //        System.out.println ("Update finished. Result is : "+result );
 //        Customer foundById = customerService.findById (17);
 //        System.out.println (foundById );
+
+//======================== Payment================
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IPaymentService paymentService = context.getBean (IPaymentService.class);
+//
+//        Payment p1 = paymentService.findById (2);
+//        System.out.println (p1.toString () );
+
+
+////================ HQL Hibernate Query language===============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IMerchantService merchantService = context.getBean (IMerchantService.class); // can be changed to MerchantService
+//
+//        List<Result> list = merchantService.getTotalReport ();
+//        for (Result result:list){
+//            System.out.format ("%s, %8.2f\n",result.getName (),result.getSum () );
+//        }
+//=================  LazyInitializationException
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IMerchantService merchantService = context.getBean (IMerchantService.class);
+//
+//        List<Merchant> list = merchantService.getSortedByNeedToPay ( );
+//        for (Merchant merchant : list) {
+//            System.out.println ("++++++++++++++++++++++++++++++++");
+//            System.out.println (merchant.getName ( ));
+//            //===========  LazyInitializationException==================================
+//            Collection<Payment>payments = merchant.getPayments ( );
+//            for(Payment p:payments){
+//                System.out.println (p.toString () );
+//            }
+//        }
+        //===================== Customer and merchants used bi him =============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        ICustomerService customerService = context.getBean(ICustomerService.class);
+//
+//        Customer customer = customerService.findById (1);
+//        if (customer!= null){
+//            System.out.println (customer.toString () );
+//            Collection<Merchant> merchants = customer.getMerchants ();
+//            for(Merchant m:merchants){
+//                System.out.println (m.getName () );
+//            }
+//        }
+//=====todo================ save new payment =============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        ICustomerService customerService = context.getBean (ICustomerService.class);
+//        Customer customer = customerService.findById (1);
+//
+//        Merchant newMerchant = new Merchant ( );
+//        newMerchant.setAccount ("123123");
+//        newMerchant.setBankName ("Me123");
+//        newMerchant.setCharge (5.00);
+//        IMerchantService merchantService = context.getBean (IMerchantService.class);
+//        merchantService.save(newMerchant);
+//
+//        Payment p1 = new Payment ( );
+//        p1.setDt (Date.valueOf (LocalDate.now ( )));
+//        p1.setCustomer (customer);
+//        p1.setMerchant (newMerchant);
+//
+//        IPaymentService paymentService = context.getBean (IPaymentService.class);
+//        paymentService.save(p1);
 
     }
 }

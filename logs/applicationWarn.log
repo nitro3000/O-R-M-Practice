@@ -1,0 +1,17 @@
+00:18:08.075 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1264, SQLState: 22001
+00:31:07.211 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1264, SQLState: 22001
+00:31:37.558 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+00:42:09.936 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+00:55:18.122 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+00:59:05.393 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+00:59:43.388 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+01:00:09.146 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+01:00:41.447 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+01:05:42.625 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+12:55:52.621 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:04:32.291 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:17:02.452 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:17:51.447 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:18:52.649 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:19:07.205 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
+13:28:03.043 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000

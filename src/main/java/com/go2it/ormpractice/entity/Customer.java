@@ -2,16 +2,16 @@ package com.go2it.ormpractice.entity;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Collection;
+import java.util.List;
 
 @Entity
 //(name = "customer")
 public class Customer {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    //@Column(name = "maturity")
     private java.sql.Date maturity;
     private java.sql.Date expDate;
     private String ccType;
@@ -19,14 +19,13 @@ public class Customer {
     private String email;
     private String address;
     private String name;
+//    @OneToMany(mappedBy = "customer", cascade=CascadeType.ALL)
+//    private Collection<Payment> payments;
 
-    //@ManyToMany(fetch = FetchType.EAGER)
-    //	@JoinTable(name="Payment", joinColumns=@JoinColumn(name="customerId"),
-    //			inverseJoinColumns=@JoinColumn(name="merchantId"))
-    //	private Collection<Merchant> merchants;
-    //	@OneToMany(mappedBy = "customer", cascade=CascadeType.ALL)
-    //	private List<Payment> payment;
 
+//    @ManyToMany(fetch = FetchType.EAGER)
+//    @JoinTable(name="payment", joinColumns=@JoinColumn(name="customerId"), inverseJoinColumns=@JoinColumn(name="merchantId"))
+    //private Collection<Merchant> merchants;
 
     public int getId() {
         return id;
