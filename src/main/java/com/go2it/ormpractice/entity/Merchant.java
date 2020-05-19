@@ -2,6 +2,7 @@ package com.go2it.ormpractice.entity;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Collection;
 
 @Entity
 //(name = "merchant")
@@ -21,8 +22,8 @@ public class Merchant {
     private Double sent;
     private java.sql.Date lastSent;
 
-//    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
-//    private Collection<Payment> payments;
+    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
+    private Collection<Payment> payments;
 
 //    @ManyToMany(fetch = FetchType.EAGER)
 //    @JoinTable(name="payment", joinColumns=@JoinColumn(name="merchantId"), inverseJoinColumns=@JoinColumn(name="customerId"))

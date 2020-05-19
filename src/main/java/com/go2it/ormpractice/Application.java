@@ -130,7 +130,7 @@ public class Application {
 //                System.out.println (p.toString () );
 //            }
 //        }
-        //===================== Customer and merchants used bi him =============
+        //===================== Customer and merchants used by him =============
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
 //        ICustomerService customerService = context.getBean(ICustomerService.class);
 //

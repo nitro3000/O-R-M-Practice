@@ -19,13 +19,13 @@ public class Customer {
     private String email;
     private String address;
     private String name;
-//    @OneToMany(mappedBy = "customer", cascade=CascadeType.ALL)
-//    private Collection<Payment> payments;
+    @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
+    private Collection<Payment> payments;
 
 
 //    @ManyToMany(fetch = FetchType.EAGER)
 //    @JoinTable(name="payment", joinColumns=@JoinColumn(name="customerId"), inverseJoinColumns=@JoinColumn(name="merchantId"))
-    //private Collection<Merchant> merchants;
+    //private Collection<Merchant> merchants;//cascade=CascadeType.ALL
 
     public int getId() {
         return id;
