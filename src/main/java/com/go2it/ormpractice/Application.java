@@ -1,7 +1,12 @@
 package com.go2it.ormpractice;
 
+import com.go2it.ormpractice.entity.Customer;
 import com.go2it.ormpractice.entity.Merchant;
+import com.go2it.ormpractice.entity.Payment;
+import com.go2it.ormpractice.entity.dto.Result;
+import com.go2it.ormpractice.service.ICustomerService;
 import com.go2it.ormpractice.service.IMerchantService;
+import com.go2it.ormpractice.service.IPaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
@@ -9,6 +14,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.sql.Date;
 import java.time.LocalDate;
+import java.util.Collection;
+import java.util.List;
 
 
 public class Application {
@@ -49,25 +56,25 @@ public class Application {
 //        System.out.println ("id= "+customer.getId () ); // will show the auto-incremented ID of new customer in DB if created
 
 //=====================add or save to DB new merchant =========
-        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
-        IMerchantService merchantService = context.getBean(IMerchantService.class);
-
-        Merchant merchant = new Merchant ();
-        merchant.setName ("Walmart");
-        merchant.setCharge(10.00);
-        merchant.setBankName ("Visa");
-        merchant.setAccount ("55588888555");
-        merchant.setMinSum (2.00);
-        merchant.setSwift ("BZXC9234W");
-        merchant.setPeriod1((short) 4);
-        merchant.setMinSum (28.0);
-        merchant.setNeedToSend (22.0);
-        merchant.setSent (29.0);
-        Date dt = Date.valueOf (LocalDate.now ());
-        merchant.setLastSent (dt);
-
-        merchantService.save (merchant); // saving new merchant
-        System.out.println ("id= "+merchant.getId () ); // will show the auto-incremented ID of new customer in DB if created
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IMerchantService merchantService = context.getBean(IMerchantService.class);
+//
+//        Merchant merchant = new Merchant ();
+//        merchant.setName ("Walmart");
+//        merchant.setCharge(10.00);
+//        merchant.setBankName ("Visa");
+//        merchant.setAccount ("55588888555");
+//        merchant.setMinSum (2.00);
+//        merchant.setSwift ("BZXC9234W");
+//        merchant.setPeriod1((short) 4);
+//        merchant.setMinSum (28.0);
+//        merchant.setNeedToSend (22.0);
+//        merchant.setSent (29.0);
+//        Date dt = Date.valueOf (LocalDate.now ());
+//        merchant.setLastSent (dt);
+//
+//        merchantService.save (merchant); // saving new merchant
+//        System.out.println ("id= "+merchant.getId () ); // will show the auto-incremented ID of new customer in DB if created
 
 //===todo================add or save to DB new payment =========
 
@@ -108,10 +115,9 @@ public class Application {
 //        System.out.println (p1.toString () );
 
 
-////================ HQL Hibernate Query language===============
+//================ HQL Hibernate Query language===============
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
 //        IMerchantService merchantService = context.getBean (IMerchantService.class); // can be changed to MerchantService
-//
 //        List<Result> list = merchantService.getTotalReport ();
 //        for (Result result:list){
 //            System.out.format ("%s, %8.2f\n",result.getName (),result.getSum () );
@@ -130,14 +136,14 @@ public class Application {
 //                System.out.println (p.toString () );
 //            }
 //        }
-        //===================== Customer and merchants used by him =============
+//=============(ManyToMany) read data about merchants whose goods were bought by a given customer=============
 //        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
 //        ICustomerService customerService = context.getBean(ICustomerService.class);
 //
 //        Customer customer = customerService.findById (1);
 //        if (customer!= null){
 //            System.out.println (customer.toString () );
-//            Collection<Merchant> merchants = customer.getMerchants ();
+//            Collection<Merchant> merchants = customer.getMerchants();
 //            for(Merchant m:merchants){
 //                System.out.println (m.getName () );
 //            }
@@ -162,5 +168,32 @@ public class Application {
 //        IPaymentService paymentService = context.getBean (IPaymentService.class);
 //        paymentService.save(p1);
 
+//===================== using TypedQuery interface( HQL) =============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IMerchantService merchantService = context.getBean (IMerchantService.class);
+//        List<Merchant> list = merchantService.findAll ();
+//        for ( Merchant m:list){
+//            System.out.println (m );
+//        }
+//===================== get names of customer who payed more then 500.00 by time =============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        ICustomerService customerService = context.getBean (ICustomerService.class);
+//        List<String>list=customerService.getNamesBySumPaid (1000.00);
+//        for (String s:list){
+//            System.out.println (s);
+//        }
+//=============== get sum of ol payments =============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IPaymentService paymentService = context.getBean (IPaymentService.class);
+//        double paymentsSum = paymentService.getPaymentsSum ( );
+//        System.out.println (paymentsSum);
+
+//=============== query with parameters  example (Prepared statement)=============
+//        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+//        IPaymentService paymentService = context.getBean (IPaymentService.class);
+//        List<Payment>paymentList=paymentService.getLargePayments (300);
+//        for (Payment p:paymentList){
+//            System.out.println (p +" The sum paid is: "+ p.getSumPaid ());
+//        }
     }
 }

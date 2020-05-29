@@ -8,6 +8,11 @@ public class Result {
     public Result() {
     }
 
+    public Result(String name, Double sum) {
+        this.name = name;
+        this.sum = sum;
+    }
+
     public Result(String name, Double sum, Long count) {
         this.name = name;
         this.sum = sum;

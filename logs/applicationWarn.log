@@ -1,17 +1,8 @@
-00:18:08.075 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1264, SQLState: 22001
-00:31:07.211 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1264, SQLState: 22001
-00:31:37.558 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-00:42:09.936 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-00:55:18.122 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-00:59:05.393 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-00:59:43.388 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-01:00:09.146 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-01:00:41.447 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-01:05:42.625 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-12:55:52.621 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:04:32.291 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:17:02.452 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:17:51.447 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:18:52.649 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:19:07.205 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1364, SQLState: HY000
-13:28:03.043 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+21:12:02.460 CUSTOM_PATTERN [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (Public Key Retrieval is not allowed)
+21:12:03.497 CUSTOM_PATTERN [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: null
+21:12:03.508 CUSTOM_PATTERN [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customerRepository': Injection of persistence dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [persistence.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+22:53:50.954 CUSTOM_PATTERN [main] WARN  o.h.hql.internal.ast.HqlParser - HHH000203: processEqualityExpression() : No expression to process!
+23:15:38.102 CUSTOM_PATTERN [main] WARN  o.h.hql.internal.ast.HqlParser - HHH000203: processEqualityExpression() : No expression to process!
+23:16:51.422 CUSTOM_PATTERN [main] WARN  o.h.hql.internal.ast.HqlParser - HHH000203: processEqualityExpression() : No expression to process!
+23:19:14.033 CUSTOM_PATTERN [main] WARN  o.h.hql.internal.ast.HqlParser - HHH000203: processEqualityExpression() : No expression to process!
+23:19:49.789 CUSTOM_PATTERN [main] WARN  o.h.hql.internal.ast.HqlParser - HHH000203: processEqualityExpression() : No expression to process!

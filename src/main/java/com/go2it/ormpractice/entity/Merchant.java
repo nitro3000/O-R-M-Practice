@@ -5,7 +5,7 @@ import java.sql.Date;
 import java.util.Collection;
 
 @Entity
-//(name = "merchant")
+(name = "merchant")
 public class Merchant {
 
     @Id
@@ -21,7 +21,6 @@ public class Merchant {
     private Double needToSend;
     private Double sent;
     private java.sql.Date lastSent;
-
     @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
     private Collection<Payment> payments;
 
@@ -29,99 +28,79 @@ public class Merchant {
 //    @JoinTable(name="payment", joinColumns=@JoinColumn(name="merchantId"), inverseJoinColumns=@JoinColumn(name="customerId"))
 //    private Collection<Customer> customers;//cascade=CascadeType.ALL
 
+    public Collection<Payment> getPayments() {
+    return payments;
+}
+    public void setPayments(Collection<Payment> payments) {
+        this.payments = payments;
+    }
 
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public String getBankName() {
         return bankName;
     }
-
     public void setBankName(String bankName) {
         this.bankName = bankName;
     }
-
     public String getSwift() {
         return swift;
     }
-
     public void setSwift(String swift) {
         this.swift = swift;
     }
-
     public String getAccount() {
         return account;
     }
-
     public void setAccount(String account) {
         this.account = account;
     }
-
     public Double getCharge() {
         return charge;
     }
-
     public void setCharge(Double charge) {
         this.charge = charge;
     }
-
     public Short getPeriod1() {
         return period1;
     }
-
     public void setPeriod1(Short period) {
         this.period1 = period;
     }
-
     public Double getMinSum() {
         return minSum;
     }
-
     public void setMinSum(Double minSum) {
         this.minSum = minSum;
     }
-
     public Double getNeedToSend() {
         return needToSend;
     }
-
     public void setNeedToSend(Double needToSend) {
         this.needToSend = needToSend;
     }
-
     public Double getSent() {
         return sent;
     }
-
     public void setSent(Double sent) {
         this.sent = sent;
     }
-
     public Date getLastSent() {
         return lastSent;
     }
-
-//
-//    public Collection<Payment> getPayments() {
-//        return payments;
-//    }
-//
-//    public void setPayments(Collection<Payment> payments) {
-//        this.payments = payments;
-//    }
+    public void setLastSent(Date lastSent) {
+        this.lastSent = lastSent;
+    }
 
     @Override
     public String toString() {
@@ -140,9 +119,6 @@ public class Merchant {
                 '}';
     }
 
-    public void setLastSent(Date lastSent) {
-        this.lastSent = lastSent;
-    }
     //@Override
     //	public boolean equals(Object o) {
     //		if (this == o)
@@ -163,6 +139,5 @@ public class Merchant {
     //		return Objects.hash(id, name, bankName, swift, account, charge, period, minSum, needToSend, sent,
     //				lastSent);
     //	}
-
 
 }

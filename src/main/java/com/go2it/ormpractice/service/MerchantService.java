@@ -34,6 +34,12 @@ public class MerchantService implements IMerchantService {
     @Transactional
     public void save(Merchant merchant) {
         merchantRepository.save (merchant);
-
     }
+
+    @Override
+    public List<Merchant> findAll() {
+        return merchantRepository.findAll ();
+    }
+
+
 }

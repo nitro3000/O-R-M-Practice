@@ -7,6 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import java.util.List;
 
 @Repository
 public class CustomerRepository implements ICustomerRepository {
@@ -53,6 +55,15 @@ public class CustomerRepository implements ICustomerRepository {
         } else {
             return false;
         }
+    }
+
+    @Override
+    public List<String> getNamesBySumPaid(double sumPaid) {
+        String txt ="SELECT DISTINCT c.name FROM ";
+        txt+="payment p , customer c ";
+        txt+="WHERE c.id = p.customer AND p.sumPaid > " + sumPaid;// Entities here has to be exactly like in @Entity (name=...)
+        TypedQuery<String>query=em.createQuery (txt,String.class);
+        return query.getResultList ();
     }
 //    @Override
 //    public boolean update(Customer customerToUpdate) {
