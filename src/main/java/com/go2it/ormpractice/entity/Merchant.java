@@ -1,5 +1,4 @@
 package com.go2it.ormpractice.entity;
-
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Collection;
@@ -21,19 +20,20 @@ public class Merchant {
     private Double needToSend;
     private Double sent;
     private java.sql.Date lastSent;
-    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
-    private Collection<Payment> payments;
 
+    @OneToMany(mappedBy = "merchant", fetch = FetchType.EAGER) // without ',fetch = FetchType.EAGER' - by default hibernate session make cache light, inner properties of object will not fetched
+    private Collection<Payment> paymentsMerchant;
+
+    public Collection<Payment> getPaymentsMerchant() {
+        return paymentsMerchant;
+    }
+    public void setPaymentsMerchant(Collection<Payment> payments) {
+        this.paymentsMerchant = payments;
+    }
+// ============only if needed
 //    @ManyToMany(fetch = FetchType.EAGER)
 //    @JoinTable(name="payment", joinColumns=@JoinColumn(name="merchantId"), inverseJoinColumns=@JoinColumn(name="customerId"))
 //    private Collection<Customer> customers;//cascade=CascadeType.ALL
-
-    public Collection<Payment> getPayments() {
-    return payments;
-}
-    public void setPayments(Collection<Payment> payments) {
-        this.payments = payments;
-    }
 
     public int getId() {
         return id;
