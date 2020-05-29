@@ -1,5 +1,4 @@
 package com.go2it.ormpractice.entity;
-
 import javax.persistence.*;
 import java.sql.Date;
 import java.util.Collection;
@@ -18,14 +17,15 @@ public class Customer {
     private String email;
     private String address;
     private String name;
-    @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
-    private Collection<Payment> payment;
 
-    public Collection<Payment> getPayment() {
-        return payment;
+    @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
+    private Collection<Payment> paymentsCustomer;
+
+    public Collection<Payment> getPaymentsCustomer() {
+        return paymentsCustomer;
     }
-    public void setPayment(Collection<Payment> payment) {
-        this.payment = payment;
+    public void setPaymentsCustomer(Collection<Payment> payment) {
+        this.paymentsCustomer = payment;
     }
 
     @ManyToMany(fetch = FetchType.EAGER)
