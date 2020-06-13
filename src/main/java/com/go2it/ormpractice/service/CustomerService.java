@@ -1,51 +1,22 @@
 package com.go2it.ormpractice.service;
 
 import com.go2it.ormpractice.entity.Customer;
-import com.go2it.ormpractice.repo.CustomerRepository;
+import com.go2it.ormpractice.repo.ICustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CustomerService implements ICustomerService {
     @Autowired
-    private CustomerRepository customerRepository;
+    private ICustomerRepository customerRepository;
 
-    public Customer findById(int id) {
+    public Optional<Customer> findById(long id) {
         return customerRepository.findById (id);
     }
 
-    @Transactional
-    public void save(Customer customer) {
-        customerRepository.save (customer);
-    }
 
-    @Transactional
-    public boolean remove(int id) {
-        return customerRepository.remove (id);
-    }
-
-    @Transactional
-    public boolean remove(Customer customer) {
-        return customerRepository.remove (customer);
-    }
-
-    @Transactional
-    public boolean updateCcNo(int id, String ccNo) {
-        Customer customerToUpdate = customerRepository.findById (id);
-        if (customerToUpdate != null) {
-            customerToUpdate.setCcNo (ccNo);
-            return customerRepository.update (customerToUpdate);
-                    //customerRepository.save (customerToUpdate);
-        }
-        return false;
-    }
-
-    @Override
-    public List<String> getNamesBySumPaid(double sumPaid) {
-        return customerRepository.getNamesBySumPaid (sumPaid);
-
-    }
 }

@@ -9,7 +9,7 @@ public class Merchant {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private String name;
     private String bankName;
     private String swift;
@@ -35,10 +35,10 @@ public class Merchant {
 //    @JoinTable(name="payment", joinColumns=@JoinColumn(name="merchantId"), inverseJoinColumns=@JoinColumn(name="customerId"))
 //    private Collection<Customer> customers;//cascade=CascadeType.ALL
 
-    public int getId() {
+    public long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
     public String getName() {

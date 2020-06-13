@@ -9,7 +9,7 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private java.sql.Date maturity;
     private java.sql.Date expDate;
     private String ccType;
@@ -40,10 +40,10 @@ public class Customer {
     }
 
 
-    public int getId() {
+    public long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
     public Date getMaturity() {

@@ -1,156 +1,128 @@
-2020-05-28 08:52:16 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 08:52:16 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 08:52:17 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 08:52:19 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 08:55:28 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 08:55:28 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 08:55:29 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 08:55:30 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:13:53 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:13:53 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:13:54 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:13:55 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:15:03 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:15:03 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:15:04 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:15:05 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:19:33 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:19:33 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:19:34 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:19:35 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:24:25 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:24:26 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:24:27 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:24:28 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:27:40 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:27:41 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:27:41 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:27:43 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:32:44 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:32:45 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:32:46 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:32:47 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:33:20 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:33:20 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:33:21 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:33:23 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 09:34:58 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 09:34:58 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 09:34:59 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 09:35:01 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 14:47:00 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 14:47:01 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 14:47:02 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 14:47:03 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 14:48:57 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 14:48:57 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 14:48:58 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 14:48:59 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 14:55:19 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 14:55:20 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 14:55:20 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 14:55:22 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 16:24:32 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 16:24:32 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 16:24:33 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 16:24:34 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 16:27:11 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 16:27:11 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 16:27:12 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 16:27:13 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 17:57:13 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 17:57:13 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 17:57:14 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 17:57:16 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 17:57:27 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 17:57:27 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 17:57:28 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 17:57:29 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 17:59:44 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 17:59:44 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 17:59:45 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 17:59:46 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:02:12 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:02:12 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:02:13 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:02:14 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:13:20 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:13:20 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:13:21 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:13:22 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:14:17 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:14:17 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:14:18 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:14:19 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:14:50 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:14:50 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:14:51 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:14:52 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:35:39 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:35:39 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:35:40 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:35:41 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:36:42 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:36:42 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:36:43 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:36:44 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:44:37 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:44:38 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:44:38 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:44:40 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 18:53:05 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 18:53:05 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 18:53:06 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 18:53:07 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:34:46 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:34:46 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:34:47 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:34:48 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:37:40 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:37:40 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:37:41 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:37:42 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:38:45 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:38:45 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:38:46 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:38:47 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:45:57 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:45:57 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:45:58 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:45:59 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:47:37 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:47:37 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:47:38 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:47:39 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:47:54 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:47:54 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:47:55 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:47:56 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:48:13 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:48:13 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:48:14 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:48:15 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 19:48:33 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 19:48:33 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 19:48:34 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 19:48:35 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 20:15:32 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 20:15:33 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 20:15:34 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 20:15:35 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 20:17:29 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 20:17:30 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 20:17:31 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 20:17:32 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 22:04:34 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 22:04:34 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 22:04:35 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 22:04:36 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 22:26:56 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 22:26:56 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 22:26:57 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 22:26:58 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-05-28 23:20:59 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
-2020-05-28 23:21:00 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-05-28 23:21:00 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2020-05-28 23:21:02 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 12:44:15 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 12:44:15 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 284ms. Found 3 JPA repository interfaces.
+2020-06-12 13:37:09 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 13:37:09 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 315ms. Found 3 JPA repository interfaces.
+2020-06-12 13:41:30 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 13:41:30 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 255ms. Found 3 JPA repository interfaces.
+2020-06-12 13:49:59 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 13:49:59 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 305ms. Found 3 JPA repository interfaces.
+2020-06-12 13:50:39 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 13:50:39 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 321ms. Found 3 JPA repository interfaces.
+2020-06-12 13:56:48 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 13:56:49 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 394ms. Found 3 JPA repository interfaces.
+2020-06-12 15:41:14 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 15:41:14 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 375ms. Found 3 JPA repository interfaces.
+2020-06-12 15:47:39 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 15:47:40 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 304ms. Found 3 JPA repository interfaces.
+2020-06-12 15:56:07 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 15:56:07 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 493ms. Found 3 JPA repository interfaces.
+2020-06-12 15:56:08 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 15:56:08 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 15:56:09 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 15:56:10 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 15:56:11 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 15:56:11 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 15:57:57 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 15:57:58 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 449ms. Found 3 JPA repository interfaces.
+2020-06-12 15:57:59 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 15:57:59 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 15:57:59 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 15:58:00 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 15:58:01 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 15:58:01 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 15:59:42 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 15:59:42 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 432ms. Found 3 JPA repository interfaces.
+2020-06-12 15:59:43 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 15:59:43 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 15:59:43 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 15:59:44 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 15:59:46 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 15:59:46 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 16:00:11 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 16:00:11 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 393ms. Found 3 JPA repository interfaces.
+2020-06-12 16:00:13 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 16:00:13 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 16:00:13 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 16:00:14 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 16:00:15 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 16:00:15 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 18:11:54 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 18:11:55 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 566ms. Found 3 JPA repository interfaces.
+2020-06-12 18:11:56 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 18:11:56 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 18:11:56 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 18:11:57 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 18:11:58 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 18:11:58 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:00:46 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:00:47 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 482ms. Found 3 JPA repository interfaces.
+2020-06-12 19:00:47 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:00:47 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:00:48 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:00:48 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:00:49 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:00:49 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:17:25 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:17:26 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 545ms. Found 3 JPA repository interfaces.
+2020-06-12 19:17:27 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:17:27 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:17:27 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:17:28 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:17:30 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:17:30 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:18:41 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:18:42 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 430ms. Found 3 JPA repository interfaces.
+2020-06-12 19:18:43 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:18:43 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:18:44 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:18:45 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:18:46 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:18:46 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:22:11 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:22:12 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 351ms. Found 3 JPA repository interfaces.
+2020-06-12 19:22:13 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:22:13 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:22:14 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:22:15 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:22:16 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:22:16 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:25:35 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:25:36 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 332ms. Found 3 JPA repository interfaces.
+2020-06-12 19:25:36 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:25:37 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 151ms. Found 3 JPA repository interfaces.
+2020-06-12 19:25:38 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:25:38 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:25:38 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:25:39 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:25:41 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:25:41 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 19:29:42 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:29:43 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 382ms. Found 3 JPA repository interfaces.
+2020-06-12 19:29:43 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 19:29:43 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 3 JPA repository interfaces.
+2020-06-12 19:29:44 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 19:29:44 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 19:29:45 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 19:29:46 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 19:29:47 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 19:29:47 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 20:09:52 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 20:09:52 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 296ms. Found 3 JPA repository interfaces.
+2020-06-12 20:09:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 20:09:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 3 JPA repository interfaces.
+2020-06-12 20:09:54 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 20:09:54 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 20:09:54 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 20:09:55 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 20:09:56 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 20:09:56 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-12 20:14:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 20:14:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 194ms. Found 3 JPA repository interfaces.
+2020-06-12 20:14:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-06-12 20:14:53 CUSTOM_PATTERN [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 3 JPA repository interfaces.
+2020-06-12 20:14:54 CUSTOM_PATTERN [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-12 20:14:54 CUSTOM_PATTERN [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-06-12 20:14:55 CUSTOM_PATTERN [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-12 20:14:56 CUSTOM_PATTERN [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-06-12 20:14:58 CUSTOM_PATTERN [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-12 20:14:58 CUSTOM_PATTERN [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'

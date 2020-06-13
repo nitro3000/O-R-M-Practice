@@ -4,6 +4,7 @@ import com.go2it.ormpractice.entity.Customer;
 import com.go2it.ormpractice.entity.Merchant;
 import com.go2it.ormpractice.entity.Payment;
 import com.go2it.ormpractice.entity.dto.Result;
+import com.go2it.ormpractice.repo.IMerchantRepository;
 import com.go2it.ormpractice.service.ICustomerService;
 import com.go2it.ormpractice.service.IMerchantService;
 import com.go2it.ormpractice.service.IPaymentService;
@@ -131,7 +132,7 @@ public class Application {
 //            System.out.println ("++++++++++++++++++++++++++++++++");
 //            System.out.println (merchant.getName ( ));
 //            //===========  LazyInitializationException==================================
-//            Collection<Payment>payments = merchant.getPayments ( );
+//            Collection<Payment>payments = merchant.getPaymentsMerchant ();
 //            for(Payment p:payments){
 //                System.out.println (p.toString () );
 //            }
@@ -195,5 +196,18 @@ public class Application {
 //        for (Payment p:paymentList){
 //            System.out.println (p +" The sum paid is: "+ p.getSumPaid ());
 //        }
+
+        //++++++++++++++++++SPRING DATA JPA +++++++++++++++++++++++++++++++++++++++++++
+
+        ApplicationContext context = new ClassPathXmlApplicationContext ("beans.xml");
+        IMerchantService merchantService = context.getBean (IMerchantService.class);
+        merchantService.findById (1).ifPresent (System.out::println);
+
+//        List<Merchant> list = merchantService.findAll();
+//        for ( Merchant m:list){
+//            System.out.println (m );
+//        }
+
+
     }
 }

@@ -9,23 +9,26 @@ import java.text.SimpleDateFormat;
     public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     private java.sql.Date dt;
     private java.sql.Date paymentDate;
     private String goods;
     private Double sumPaid;
     private Double chargePaid;
 
-    @ManyToOne @JoinColumn(name = "merchantId")             // Mapped entity 1
+        public Payment() {
+        }
+
+        @ManyToOne @JoinColumn(name = "merchantId")             // Mapped entity 1
     private Merchant merchant;
 
     @ManyToOne @JoinColumn(name = "customerId")             // Mapped entity 2
     private Customer customer;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
     public Date getDt() {

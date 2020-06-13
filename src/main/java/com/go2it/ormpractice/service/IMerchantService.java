@@ -2,13 +2,17 @@ package com.go2it.ormpractice.service;
 
 import com.go2it.ormpractice.entity.Merchant;
 import com.go2it.ormpractice.entity.dto.Result;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface IMerchantService {
-    public Merchant findById(int id);
+    Optional<Merchant> findById(long id);
+
+    void save(Merchant merchant);
+
+    public List<Merchant> findAllByOrderByNeedToSend();
     public List<Result> getTotalReport();
-    public List<Merchant>getSortedByNeedToPay();
-    public void save(Merchant merchant);
-    public List<Merchant>findAll();
+
 }

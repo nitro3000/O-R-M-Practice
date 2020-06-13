@@ -13,7 +13,7 @@ public class Result {
         this.sum = sum;
     }
 
-    public Result(String name, Double sum, Long count) {
+    public Result(String name,  Long count, Double sum) {
         this.name = name;
         this.sum = sum;
         this.count = count;
